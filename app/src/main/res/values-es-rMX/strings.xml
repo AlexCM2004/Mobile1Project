@@ -11,4 +11,7 @@
     <string name="correct_weight">El paciente se encuentra en el peso adecuado</string>
     <string name="incorrect_weight">El paciente NO se encuentra en el peso adecuado</string>
     <string name="invalid_input">Entrada no válida</string>
+    <string name="celsius">Temperatura en grados celsius</string>
+    <string name="conversion">Convertir</string>
+    <string name="fahrenheit">Temperatura en grados fahrenheit:</string>
 </resources>
