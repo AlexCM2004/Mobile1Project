@@ -5,4 +5,13 @@
     <string name="email_label">Email</string>
     <string name="password_label">Password</string>
     <string name="login_button">Login</string>
+    <string name="enter_weight">Enter weight (kg)</string>
+    <string name="enter_height">Enter height (m)</string>
+    <string name="calculate">Calculate</string>
+    <string name="correct_weight">The patient is at a healthy weight</string>
+    <string name="incorrect_weight">The patient is NOT at a healthy weight</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="celsius">Celsius temperature</string>
+    <string name="conversion">Convert</string>
+    <string name="fahrenheit">Fahrenheit temperature:</string>
 </resources>

@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.mobile1project.ui.theme.Mobile1ProjectTheme
+import fahrenheit.views.FahrenheitView
+import imc.views.IMCView
 import login.views.LoginView
 import sum.views.SumAppView
 
@@ -22,7 +24,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Mobile1ProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    SumAppView()
+                    FahrenheitView()
                 }
             }
         }
