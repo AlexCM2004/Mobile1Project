@@ -1,4 +1,4 @@
-package imc.viewmodels
+package com.example.mobile1project.ids.imc.viewmodels
 
 import android.content.Context
 import androidx.lifecycle.ViewModel

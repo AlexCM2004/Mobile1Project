@@ -1,4 +1,4 @@
-package sum.viewmodels
+package com.example.mobile1project.ids.sum.viewmodels
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
-import sum.views.SumAppView
+import com.example.mobile1project.ids.sum.views.SumAppView
 
 class SumViewModel : ViewModel() {
     var number1 by mutableStateOf(TextFieldValue(""))

@@ -1,4 +1,4 @@
-package fahrenheit.views
+package com.example.mobile1project.ids.fahrenheit.views
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.mobile1project.R
-import fahrenheit.viewmodels.FahrenheitViewModel
+import com.example.mobile1project.ids.fahrenheit.viewmodels.FahrenheitViewModel
 
 @Composable
 fun FahrenheitView(fahrenheitViewModel: FahrenheitViewModel = viewModel()) {

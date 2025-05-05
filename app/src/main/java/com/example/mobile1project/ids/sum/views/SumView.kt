@@ -1,4 +1,4 @@
-package sum.views
+package com.example.mobile1project.ids.sum.views
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
-import sum.viewmodels.SumViewModel
+import com.example.mobile1project.ids.sum.viewmodels.SumViewModel
 
 @Composable
 fun SumAppView(sumViewModel: SumViewModel = viewModel()) {

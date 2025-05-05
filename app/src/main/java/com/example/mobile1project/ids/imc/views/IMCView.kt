@@ -1,4 +1,4 @@
-package imc.views
+package com.example.mobile1project.ids.imc.views
 
 import android.content.Context
 import androidx.compose.foundation.layout.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.mobile1project.R
-import imc.viewmodels.IMCViewModel
+import com.example.mobile1project.ids.imc.viewmodels.IMCViewModel
 
 @Composable
 fun IMCView(viewModel: IMCViewModel = viewModel()) {
