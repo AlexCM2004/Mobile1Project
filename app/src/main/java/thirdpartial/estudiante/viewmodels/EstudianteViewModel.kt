@@ -1,5 +1,6 @@
 package thirdpartial.estudiante.viewmodels
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
@@ -34,14 +35,14 @@ class EstudianteViewModel : ViewModel() {
                 _estudiantes.value = repository.fetchEstudiantes()
             } catch (e: HttpException) {
                 _errorMessage.value = when (e.code()) {
-                    404 -> "Recurso no encontrado (404)"
-                    500 -> "Error del servidor (500)"
-                    else -> "Error HTTP: ${e.code()}"
+                    404 -> Log.d("Error 404", "Recurso no encontrado").toString()
+                    500 -> Log.d("Error 500", "Error del servidor").toString()
+                    else -> Log.d("Error HTTP", "${e.code()}").toString()
                 }
             } catch (e: IOException) {
-                _errorMessage.value = "Sin conexión a internet"
+                _errorMessage.value = Log.d("Sin conexión","Sin conexión a internet").toString()
             } catch (e: Exception) {
-                _errorMessage.value = "Error desconocido: ${e.localizedMessage}"
+                _errorMessage.value = Log.d("Error desconocido","${e.localizedMessage}").toString()
             }
         }
     }
