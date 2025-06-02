@@ -46,5 +46,12 @@ fun ThirdPartialView(navController: NavController) {
         ) {
             Text("Mostrar estudiantes")
         }
+
+        Button(
+            onClick = { navController.navigate(ScreenNavigation.Restaurantes.route) },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Cargar restaurantes")
+        }
     }
 }
